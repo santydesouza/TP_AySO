@@ -1,0 +1,43 @@
+repogit/
+cd repogit/
+ls
+cd TP_AySO/
+ls
+echo "El comando para esto es tpcdump" > comando_dump_net
+ls
+echo "-w (archivo): guarda la caputra en un archivo para analizarlo mas tarde" >>comando_dump_net 
+cat comando_dump_net 
+git add .
+git commit -m "ADD: comando para capturar y analizar el trafico de la red"
+cat << EOF >> README.md
+Alumno: Santiago de Souza
+Division: 318
+Turno: Noche
+EOF
+
+cat README.md
+cat << EOF >> README.md
+EOF
+
+cat << EOF > README.md
+#TP_AySO
+Alumno: Santiago de Souza
+Division: 318
+Turno: Noche
+EOF
+
+cat README.md
+git add .
+git commit -m "docs: Se Añadio Informacion del alumno, division y turno al README"
+history -a
+cp /.bash_history ./Historial_comandos_Santydesouza.txt 
+history -a
+/.bash_history ./Historial_comandos_santydesouza.txt
+. bash_hisotry 
+hisrory -a
+history -a
+ls
+.bash_history
+cp /.bash_history ./Historial_comandos_santy.tx
+pwd
+history -a
